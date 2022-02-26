@@ -1,15 +1,14 @@
 .ad-section{
-    border: 1px solid red;
+    ;
 }
 .ad-container{
-    border: 1px solid blueviolet;
-    border: 1px solid blueviolet;
+    
     width: 800px;
     margin: 0px auto;
     height: 300px;
 }
 .ad-box{
-    border: 1px solid black;
+    background-color: cadetblue;
     display: inline-block;
     height: 291px;
     width: 187px;
