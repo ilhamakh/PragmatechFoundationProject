@@ -1,6 +1,4 @@
-.ad-section{
-    ;
-}
+.ad-section
 .ad-container{
     
     width: 800px;
@@ -8,7 +6,8 @@
     height: 300px;
 }
 .ad-box{
-    background-color: cadetblue;
+
+    background-color: #ffd9d9;
     display: inline-block;
     height: 291px;
     width: 187px;
