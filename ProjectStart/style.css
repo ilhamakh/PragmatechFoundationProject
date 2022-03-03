@@ -1,10 +1,10 @@
 .menu-part{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 10px;
-    background-color: #4a1e02;    
+    background-color: #582d12;    
 }
 .menu-part-container{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0px auto;    
     display: flex;
     justify-content: space-between;
@@ -12,14 +12,25 @@
     
 }
 .page-icon{ 
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
+    padding: 5px;
     
 }
 .menu-parts{
-    border: 1px solid brown;
+    /* border: 1px solid brown; */
     width: 825px;
-    margin: 0px;
     display: flex;
     justify-content: space-between;
+    padding: 2px;   
   
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+}
+i{
+    margin-top: 18px;
+
 }
