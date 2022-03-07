@@ -1,36 +1,67 @@
-.menu-part{
-    /* border: 1px solid black; */
-    padding: 10px;
-    background-color: #582d12;    
+body{
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+
 }
-.menu-part-container{
-    /* border: 1px solid red; */
-    margin: 0px auto;    
+/* "Main page" section is starting. -->  */
+ #main-page-top{
+    border-bottom: 1px solid lightgrey;
+    padding: 10px;
+         
+}
+   .container{
+    /* border: 1px solid green;  */
+    margin: 0px auto;  
+    padding: 10px;
     display: flex;
     justify-content: space-between;
-    padding: 10px;
-    
 }
-.page-icon{ 
-    /* border: 1px solid blue; */
-    padding: 5px;
-    
+.main-page-element span{
+    margin-left: 5px; 
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    transition: 0.5s;
 }
-.menu-parts{
-    /* border: 1px solid brown; */
-    width: 825px;
-    display: flex;
-    justify-content: space-between;
-    padding: 2px;   
-  
+
+.main-page-element span:hover{
+    color:#dc3545;
 }
-ul{
+/* "Main page" section is over. */
+
+/* "Navigation bar" is starting. */
+#navigation-bar{}
+    /* border: 1px solid red; */   
+
+.navigation-bar-icon{
+    width: 165px;
+    height: 80px;
+}
+.navigations{
+    width: 720px;
+}
+.navigation-bar-item{
+    margin-top: 30px;
+    margin-left: 50px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+img{
+    border-top: 0px;
+    height:80px;
+    width: 90px;
+}
+.ul{
     list-style: none;
     display: flex;
     justify-content: space-between;
-    width: 550px;
+    width: 500px;
+    cursor: pointer;
+    transition: 0.5s;
 }
-i{
-    margin-top: 18px;
-
+.navigation-bar-item span:hover{
+    color:#dc3545;
 }
