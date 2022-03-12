@@ -165,23 +165,172 @@ ul {
   .changeable-boxes-case{
       border: 1px solid black;
       width: 1275px;
+      padding: 10px;
       border-radius: 10px;
       margin: 10px 20px;      
   }
   .changeable-boxes-row{
-      /* border: 1px solid purple; */
+    /* border: 1px solid purple; */
     width: 1111px;
-    margin: 15px auto;
+    margin: 30px auto;
     display: flex;
     justify-content: space-between
   }
   .changeable-boxes-item{
-      /* border: 1px solid yellow; */
+      border: 1px solid yellow;
       width: calc(100%/3);
       height: 275px;
-      margin: 5px;
+      margin: 15px;
+      position: relative;
   }
   .changeable-boxes-item img{
       width: 100%;
       height: 100%;
+      position: absolute;
   }
+  .changeable-boxes-item-content{
+      border: 1px solid red;
+      background-color: rgb(223, 75, 75);
+      text-align: center;
+      width: 120px;
+      padding: 15px;
+      position: absolute;
+      top: 115px;
+      left: 110px;      
+  }
+
+
+  /* her section -da bezi sheyleri saxlamisham, tehvil verende hamisi tam hazir olacaq  */
+
+  /* "Statistics" section is starting.  
+  #statistics{
+      border: 1px solid red;
+      position: relative;
+  }
+  #statistics img{
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+      object-fit:cover;      
+  }
+  .statistics-container{
+      border: 1px solid black;
+      width: 1120px;
+      margin: 0px auto;
+  }
+  .statistics-row{
+      border: 1px solid yellow;
+      text-align: center;
+      color: white;
+      position: absolute;
+      top: 0;
+      left: 550px;
+  }
+  .statistics-third-row{
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .statistics-third-row-item{
+    border: 1px solid green;
+    height: 120px;
+    width: 190px;
+    padding: 5px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+*/ 
+
+/* "Best seller" section is starting. */
+#best-seller{
+    /* border: 1px solid black; */
+    padding: 5px;
+}
+.best-seller-container{
+    /* border: 1px solid red; */
+    width: 1230px;
+    margin: 0px auto;
+}
+.best-seller-first-row{
+    /* border: 1px solid yellow; */
+    width: 220px;
+    margin: 0px auto;
+}
+.best-seller-first-row-item h2{
+    text-align: center;
+    line-height: 15px;
+}
+.best-seller-second-row{
+    /* border: 1px solid pink; */
+    display: flex;
+    justify-content: space-between;
+}
+.best-seller-second-row-item{
+    /* border: 1px solid gray; */
+    margin: 10px;
+}
+.best-seller-second-row-image-item{
+    /* border: 1px solid purple; */
+    width: 280px;
+    height: 290px;
+}
+.best-seller-second-row-image-item img{
+    width: inherit;
+    height: inherit;
+}
+.best-seller-second-row-text-item-info{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+.best-seller-second-row-text-item-info span{
+    margin-right: 10px;
+}
+.best-seller-second-row-text-item-price-second-span{
+    text-decoration: line-through;
+}
+
+/* "Discounts" section is starting. */
+#discounts{
+    /* border: 1px solid red; */
+    position: relative;    
+}
+#discounts img{
+    width: 100%;
+    height: 100%;
+}
+
+.discounts-container{
+    /* border: 1px solid black; */
+    width: 350px;
+    position: absolute;
+    top: 50px;
+    left: 900px;
+}
+.discounts-row{
+    /* border: 1px solid pink; */
+}
+.discounts-row p{
+    color: white;
+    text-align: center;
+}
+.discounts-row h2{
+   color: white;
+   font-weight: bold; 
+}
+.discounts-row span{
+   color: #ef4836;
+   font-weight: bold;
+   font-size: 100px;
+}
+.discounts-row a{
+    border: 1px solid red;
+    width: 120px;
+    padding: 5px;
+    color: red;
+    text-decoration: none;
+    /* a ya yeniden bax */
+}
