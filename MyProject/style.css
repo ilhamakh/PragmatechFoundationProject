@@ -9,7 +9,6 @@ ul {
     padding: 0px;
 }
 
-
 /* "Main page" section is starting. -->  */
 
 #main-page-top {
@@ -37,32 +36,34 @@ ul {
 .main-page-top-element span i {
     margin-right: 5px;
 }
-
+.main-page-top-element span a{
+    color: black;
+    font-weight: 200px;
+    text-decoration: none;
+}
 .main-page-top-element span:hover {
     color: #dc3545;
 }
-
+.main-page-top-element span a:hover {
+    color: #dc3545;
+}
 
 /* "Main page" section is over. */
-
 
 /* "Navigation bar" is starting. */
 
 #navigation-bar {
-    padding: 20px 10px;
+    padding: 15px 10px;
 }
-
-
-/* border: 1px solid red; */
 
 .navigation-bar-icon {
-    width: 165px;
-    height: 80px;
+    width: 200px;
+    height: 100px;
 }
-
-.navigation-bar-item-group {
-    /* width: 720px; */
-}
+ /* .navigation-bar-icon img{ */
+    /* width: 100%; */
+    /* height: 100%; */
+/* } */
 
 .navigation-bar-item {
     margin-top: 30px;
@@ -85,19 +86,17 @@ ul {
     cursor: pointer;
     transition: 0.5s;
 }
-
-
-/* .navigation-bar-item ul li a {} */
+.navigation-bar-item a:hover{
+    color: #dc3545;
+}
 
 .navigation-bar-item-link {
     color: #333;
     text-decoration: none;
 }
-
-.navigation-bar-item-link :hover {
-    color: #ef4836;
+.navigation-bar-item span{
+    transition: 0.5s;  
 }
-
 .navigation-bar-item span:hover {
     color: #dc3545;
 }
@@ -177,7 +176,7 @@ ul {
     justify-content: space-between
   }
   .changeable-boxes-item{
-      border: 1px solid yellow;
+      /* border: 1px solid yellow; */
       width: calc(100%/3);
       height: 275px;
       margin: 15px;
@@ -188,66 +187,80 @@ ul {
       height: 100%;
       position: absolute;
   }
-  .changeable-boxes-item-content{
+  .changeable-boxes-item-content a{
       border: 1px solid red;
-      background-color: rgb(223, 75, 75);
+      background-color: rgba(219, 101, 101, 0.87);
       text-align: center;
+      text-decoration: none;
+      color: white;
       width: 120px;
       padding: 15px;
       position: absolute;
       top: 115px;
-      left: 110px;      
+      left: 110px;   
+      transition: .4s;   
+  }
+  .changeable-boxes-item-content a:hover{
+      background-color: rgba(238, 18, 18, 0.87);;
   }
 
+   /* "Statistics" section is starting.   */
 
-  /* her section -da bezi sheyleri saxlamisham, tehvil verende hamisi tam hazir olacaq  */
-
-  /* "Statistics" section is starting.  
-  #statistics{
-      border: 1px solid red;
+     #statistics{
+      /* border: 1px solid red; */
+      height: 500px;
       position: relative;
   }
-  #statistics img{
+     #statistics img{
       width: 100%;
       height: 100%;
       margin: 0px;
       object-fit:cover;      
   }
-  .statistics-container{
-      border: 1px solid black;
+     .statistics-container{
+      /* border: 1px solid black; */
       width: 1120px;
-      margin: 0px auto;
+      height: 280px;
+      margin: 110px auto;
+      position: absolute;
+      top: 10px;
+      left: 115px;
   }
-  .statistics-row{
-      border: 1px solid yellow;
+     .statistics-row{
+      /* border: 1px solid yellow; */
       text-align: center;
       color: white;
-      position: absolute;
-      top: 0;
-      left: 550px;
-  }
+   }
   .statistics-third-row{
     margin: 0px;
     display: flex;
     justify-content: space-between;
-    position: absolute;
-    top: 0;
-    left: 0;
   }
   .statistics-third-row-item{
-    border: 1px solid green;
+    border: 1px solid white; 
     height: 120px;
     width: 190px;
+    text-align: center;
     padding: 5px;
     border-top-right-radius: 50px;
     border-bottom-left-radius: 50px;
 }
-*/ 
+.statistics-third-row-item h1{
+    color: white;
+    font-size: 60px;
+    margin: 0px;
+}
+.statistics-third-row-item h3{
+    color: white;
+    margin: 0px;
+}
 
 /* "Best seller" section is starting. */
+
 #best-seller{
     /* border: 1px solid black; */
     padding: 5px;
+    margin: 50px;
 }
 .best-seller-container{
     /* border: 1px solid red; */
@@ -257,19 +270,21 @@ ul {
 .best-seller-first-row{
     /* border: 1px solid yellow; */
     width: 220px;
+    height: 75px;
     margin: 0px auto;
 }
 .best-seller-first-row-item h2{
     text-align: center;
-    line-height: 15px;
 }
 .best-seller-second-row{
     /* border: 1px solid pink; */
+    margin: 20px 0px;
     display: flex;
     justify-content: space-between;
 }
 .best-seller-second-row-item{
     /* border: 1px solid gray; */
+    width: calc(100%/4);
     margin: 10px;
 }
 .best-seller-second-row-image-item{
@@ -294,24 +309,26 @@ ul {
 }
 
 /* "Discounts" section is starting. */
+
 #discounts{
     /* border: 1px solid red; */
-    position: relative;    
+    position: relative;   
 }
 #discounts img{
     width: 100%;
     height: 100%;
 }
-
 .discounts-container{
     /* border: 1px solid black; */
     width: 350px;
     position: absolute;
     top: 50px;
-    left: 900px;
+    left: 800px;
 }
 .discounts-row{
     /* border: 1px solid pink; */
+    display: flex;
+    justify-content: center;
 }
 .discounts-row p{
     color: white;
@@ -320,6 +337,7 @@ ul {
 .discounts-row h2{
    color: white;
    font-weight: bold; 
+   margin: 0px;
 }
 .discounts-row span{
    color: #ef4836;
@@ -327,13 +345,19 @@ ul {
    font-size: 100px;
 }
 .discounts-row a{
-    border: 1px solid red;
+    border: 1px solid #ef4836;
     width: 120px;
     padding: 5px;
-    color: red;
+    color: #ef4836;
+    text-align: center;
     text-decoration: none;
-    /* a ya yeniden bax */
+    transition: .4s;
 }
+.discounts-row a:hover{
+    background-color: #ef4836;
+    color: white;
+}
+
 /* "Feedbacks" section is starting. */
 
 #feedback{
