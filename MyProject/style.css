@@ -19,7 +19,7 @@ ul {
 
 .container {
     /* border: 1px solid green;  */
-    width: 1400px;
+    width: 1300px;
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
@@ -457,5 +457,40 @@ ul {
     .mini-navbar-row ul a:hover{
         color: #dc3545;
     }
+
+    /* "Page bottom" section is starting. */
+
+    #page-bottom{
+        border: 1px solid red;
+        background-color: rgb(27, 27, 27);
+    }
+    .page-bottom-container{
+        border: 1px solid black;
+        width: 1130px;
+        margin: 0px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .page-bottom-container-coloumn{
+        border: 1px solid pink;
+        width: calc(100%/4);
+        margin: 10px;
+    }
+    .page-bottom-container-first-coloumn ul{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        text-decoration: none;
+        
+        }
+        .page-bottom-container-first-coloumn ul a{
+            text-decoration: none; 
+            color: gray;       
+            transition: .4s;
+        }
+        .page-bottom-container-first-coloumn ul a:hover{
+            color: #dc3545;
+        }
 
     
