@@ -218,39 +218,39 @@ ul {
     opacity: .5;
 }
 
-   /* "Statistics" section is starting.   */
+    /* "Statistics" section is starting.   */
 
 #statistics{
-      /* border: 1px solid red; */
-      height: 500px;
-      position: relative;
-  }
-     #statistics img{
-      width: 100%;
-      height: 100%;
-      margin: 0px;
-      object-fit:cover;      
-  }
-     .statistics-container{
-      /* border: 1px solid black; */
-      width: 1120px;
-      height: 280px;
-      margin: 110px auto;
-      position: absolute;
-      top: 10px;
-      left: 115px;
-  }
-     .statistics-row{
-      /* border: 1px solid yellow; */
-      text-align: center;
-      color: white;
-   }
-  .statistics-third-row{
+    /* border: 1px solid red; */
+    height: 500px;
+    position: relative;
+}
+    #statistics img{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    object-fit:cover;      
+}
+    .statistics-container{
+    /* border: 1px solid black; */
+    width: 1120px;
+    height: 280px;
+    margin: 110px auto;
+    position: absolute;
+    top: 10px;
+    left: 115px;
+}
+    .statistics-row{
+    /* border: 1px solid yellow; */
+    text-align: center;
+    color: white;
+}
+.statistics-third-row{
     margin: 0px;
     display: flex;
     justify-content: space-between;
-  }
-  .statistics-third-row-item{
+}
+.statistics-third-row-item{
     border: 1px solid white; 
     height: 120px;
     width: 190px;
@@ -349,14 +349,14 @@ ul {
     text-align: center;
 }
 .discounts-row h2{
-   color: white;
-   font-weight: bold; 
-   margin: 0px;
+    color: white;
+    font-weight: bold; 
+    margin: 0px;
 }
 .discounts-row span{
-   color: #ef4836;
-   font-weight: bold;
-   font-size: 100px;
+    color: #ef4836;
+    font-weight: bold;
+    font-size: 100px;
 }
 .discounts-row a{
     border: 1px solid #ef4836;
