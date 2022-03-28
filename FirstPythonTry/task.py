@@ -1,3 +1,4 @@
+# First failed Python attempt
 a=int()
 def writeNumber(a):
     a=a+1
