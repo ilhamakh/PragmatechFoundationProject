@@ -1,0 +1,5 @@
+# print(3+True)
+# print(3>4 and 3+4/2)
+# print(type(int(float('3'))))
+print(3.14+int(3.14))
+print(False+True>int(False))
