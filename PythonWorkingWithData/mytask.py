@@ -1,12 +1,11 @@
-ilkeded=1
-araeded=ilkeded
-def artir():
-    global araeded
-    print(araeded)
-    araeded=araeded+1
-    if araeded<10:
-        artir()
-artir()    
+b=1
+def addition():
+    global b
+    print(b)
+    b=b+1
+    if b<101:
+        addition()
+addition()    
 
 
     
