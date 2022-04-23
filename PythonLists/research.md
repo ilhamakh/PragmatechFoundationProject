@@ -3,6 +3,7 @@ List, tuple və range arasındakı fərqlər nədir?
 
 Sual 02
 While və for dövrləri arasındakı fərqlər nələrdir?
+"While" verilmiş şərt ödənilənə qədər işləyir, "For"dan isə verilmiş müəyyən range daxilində və list, string, set, tuple, dictionary ilə işləyərkən istifadə olunur.
 
 Sual 03
 Listlərdə append və insert metodları arasındakı fərqlər nələrdir?

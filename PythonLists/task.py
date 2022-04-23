@@ -25,10 +25,3 @@
 #     # parametr olaraq daxil edilən list içərisindəki elementlərin daxil edilən n parametri qədər olan ən böyük ədədləri ekrana çap edin
 #     pass
 
-def sum_of_list(l,n):
-    if n == 0:
-        return l[n]
-    return l[n] + sum_of_list(l,n-1)
-
-my_list = [1,3,5,2,4]
-print("The sum of my_list is", sum_of_list(my_list,len(my_list)-1))
