@@ -1,12 +1,12 @@
 # parametr olaraq daxil edilən list içərisində təkrarlanan ədədləri və hər ədəddən neçə ədəd olduğunu ekrana çap edin
-ededler=[23,56,890,12,45,123,67,23,34,12]
-ls={}
-def tekralananEdedleriTap(ls):
-    for i in ededler:
-        if ededler.count(i)>1:
-            ls[i]=ededler.count(i)
-    print(ls)
-tekralananEdedleriTap(ls)
+# ededler=[23,56,890,12,45,123,67,23,34,12]
+# ls={}
+# def tekralananEdedleriTap(ls):
+#     for i in ededler:
+#         if ededler.count(i)>1:
+#             ls[i]=ededler.count(i)
+#     print(ls)
+# tekralananEdedleriTap(ls)
 
 # ededler=[23,56,890,12,45,123,67,23,34,12]
 # def xususiEdedlerinCemi(ls,reqemSayi):
@@ -24,3 +24,11 @@ tekralananEdedleriTap(ls)
 # def enBoyukNEded(ls,n):
 #     # parametr olaraq daxil edilən list içərisindəki elementlərin daxil edilən n parametri qədər olan ən böyük ədədləri ekrana çap edin
 #     pass
+
+def sum_of_list(l,n):
+    if n == 0:
+        return l[n]
+    return l[n] + sum_of_list(l,n-1)
+
+my_list = [1,3,5,2,4]
+print("The sum of my_list is", sum_of_list(my_list,len(my_list)-1))
