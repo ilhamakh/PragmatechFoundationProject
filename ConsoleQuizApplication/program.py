@@ -32,6 +32,9 @@ suallar=[
     "duzgunCavab":"B"
 }
 ]
+correctAnswer=0
+wrongAnswer=0
+toppoint=0
 questionum=1
 for sual in suallar:
     quiz=f"""
@@ -44,10 +47,12 @@ for sual in suallar:
     print(quiz)
     cavab=input("Cavabinizi daxil edin: ")
     questionum+=1
-    # if cavab==sual["duzgunCavab"]:
-    #     print("Tebrikler!")
-    # else:
-    #     print("Yanlish cavab!")
+    if cavab==sual["duzgunCavab"]:
+        toppoint+=10
+        correctAnswer+=1
+    else:
+        wrongAnswer+=1
+    print(f'Sizin quiz nəticələri! Düz Cavab Sayi: {correctAnswer} Səhv Cavab Sayi: {wrongAnswer} Ümumi Əldə Edilən Nəticə: {toppoint}')    
 
 # def QuizYarat():
 #     # verilən sual formatına uyğun olaraq istifadəçidən sual detallarının alınması
